@@ -1,0 +1,174 @@
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: xx-large;
+    color: navy;
+}
+#gelata{
+    /* font-family: 'DM Sans', sans-serif;  */
+        font-family: 'Dancing Script', cursive; 
+
+}
+.About{
+    background-image:url(cream2.jpg) ;
+    /* background-color: #c0eb75; */
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100vh;
+}
+.butn{
+    border-radius: 30px;
+    font-size: large;
+    background-color: aqua;
+    padding: 10px 30px;
+}
+#cream{
+     /* font-family: 'Dancing Script', cursive;  */
+/* font-family: 'DM Sans', sans-serif;  */
+ /* font-family: 'Fira Sans Condensed', sans-serif;  */
+font-size: 70px;
+font-family: 'Pacifico', cursive;
+}
+.footer{
+    display: flex;
+    background-color:#212529 ;
+    color: aliceblue;
+    justify-content: space-between;
+    font-size: large;
+}
+#subscribe{
+    padding: 10px 80px 10px 80px;
+}
+.images{
+    width:5%;
+    display: flex;
+    gap: 350%;
+    /* justify-content: space-between; */
+    
+    
+  
+}
+#img{
+    border-radius: 100%;
+    width: 15vw;
+  
+}
+#we{
+    font-size: 90px;
+}
+#tap{
+    text-align: center;
+}
+.online{
+    text-align: center;
+}
+.butnn{
+border-radius: 50px;
+background-color: aqua;
+padding: 2px 60px;
+font-size: large;
+}
+#creams{
+    width: 30%;
+    float: left;
+    border-radius: 80%;
+}
+.enjoy{
+    background-image: url(cream3.jpg);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    /* margin-bottom: 20px; */
+    padding-top: 30px;
+
+}
+.fresh{
+    padding: 30px;
+    margin: 80px;
+    background-color: #d0bfff;
+}
+#ice{
+    float: right;
+    width: 20%;
+    border-radius: 50%;
+  
+
+}
+#blank{
+    width: 100%;
+    height: 100vh;
+}
+.mail{
+    float: right;
+}
+.place{
+    display: flex; 
+    background-color: #d0bfff;
+    text-align: center;
+    padding-left: 100px;
+    margin: 50px;
+   
+}
+.plac{
+    padding-left: 20px;
+  
+    
+}
+.deliver{
+    background-image: url(cream11.png);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 30px;
+    font-size: xx-large;
+    /* font-family: 'DM Sans', sans-serif;  */
+    font-family: 'Fira Sans Condensed', sans-serif; 
+    
+
+}
+.dessert{
+    /* display: flex; */
+    background-color: #d0bfff;
+    padding-top: 80px;
+  
+}
+#ima{
+    border-radius: 100%;
+}
+#free{
+    font-size: 90px;
+    color: darkturquoise;
+    font-family: 'Noto Serif', serif; 
+}
+.dess{
+    float: right;
+    padding-right: 180px;
+}
+#bree{
+    border-radius: 150%;
+    width: 15%;
+}
+.reviews{
+    text-align: center;
+    background-color: #d0bfff;
+}
+@media screen  and(max-width: 700px){  
+ .butn{
+    font-size: small;
+    padding: 8px 8px;
+ }
+ ul{
+    flex-direction: column;
+    font-size: 10px;
+ } 
+ .cream{
+    font-size: 10px;
+ } 
+   #ice{
+    width: 5%;
+   }
+
+
+}
+    
